@@ -38,7 +38,8 @@ public class Main {
 
     public static void modificarMuseo(){
         String obraIntroducida;
-        ObrasEntity e  = em.createQuery("from ObrasEntity where titulo like , ObrasEntity.class).getSingleResult();
+        //TODO hacer un swich dependiendo de lo que eliga o mirar el otro proyecto de Sandra
+        //ObrasEntity e  = em.createQuery("from ObrasEntity where titulo like , ObrasEntity.class).getSingleResult();
 
     }
 
