@@ -2,17 +2,20 @@ import database.EmfSingleton;
 import entities.ObrasEntity;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
+import libs.Leer;
 
 import java.util.List;
 
 public class Main {
     static EntityManager em = EmfSingleton.getInstance().getEmf().createEntityManager();
+    static EntityTransaction transaction = em.getTransaction();
     public static void main(String[]args){
         String guiones = "-".repeat(20);
         int menu;
         boolean salir = false;
         do{
             System.out.println(guiones);
+            System.out.println("2.Modificar Museo");
             System.out.println("1.Listar Obras");
             System.out.println("0.Salir");
             System.out.println(guiones);
@@ -37,9 +40,19 @@ public class Main {
     }
 
     public static void modificarMuseo(){
-        String obraIntroducida;
-        //TODO hacer un swich dependiendo de lo que eliga o mirar el otro proyecto de Sandra
-        //ObrasEntity e  = em.createQuery("from ObrasEntity where titulo like , ObrasEntity.class).getSingleResult();
+        int obraSeleccionada;
+        List<ObrasEntity> listaObras = em.createQuery("from ObrasEntity", ObrasEntity.class).getResultList();
+        int i = 0;
+        String guion = "-";
+        System.out.println(guion.repeat(20));
+        System.out.println("Lista de obras: ");
+        for(ObrasEntity obras: listaObras){
+            i++;
+            System.out.println(i + ". " + obras.getTitulo());
+        }
+        System.out.println(guion.repeat(20));
+        //Se podria hacer un switch o averiguar como poner algo en el ? 
+        ObrasEntity e  = em.createQuery("from ObrasEntity where titulo like ?", ObrasEntity.class).getSingleResult();
 
     }
 
