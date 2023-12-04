@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a720439-3783-40d7-9b91-4b5a1d03461e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2749befd-3d07-4bf6-b691-946d9f358502.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2749befd-3d07-4bf6-b691-946d9f358502.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8a720439-3783-40d7-9b91-4b5a1d03461e" name="Changes" comment="19/11/2023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alumno_FP/Desktop/NadalAraMarioDAM2/AD/MuseosHibernate/src/main/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mario/OneDrive/Escritorio/DAM/2DAM/PSP/BuscaMediasForkJoinRecursivasMarioNadal&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -85,10 +84,37 @@
       <workItem from="1700210042779" duration="1705000" />
       <workItem from="1700223423136" duration="45000" />
       <workItem from="1700394748202" duration="1198000" />
+      <workItem from="1700395954507" duration="21000" />
+      <workItem from="1700397737684" duration="112000" />
+      <workItem from="1700470488969" duration="49000" />
+      <workItem from="1700561239537" duration="772000" />
+      <workItem from="1700638118809" duration="28000" />
+      <workItem from="1700653694952" duration="2091000" />
+      <workItem from="1700664118146" duration="129000" />
+      <workItem from="1700815061587" duration="3043000" />
+      <workItem from="1700937308449" duration="2000" />
+      <workItem from="1700939611283" duration="634000" />
+      <workItem from="1700941804209" duration="869000" />
+      <workItem from="1701160077079" duration="899000" />
+      <workItem from="1701258316556" duration="207000" />
+      <workItem from="1701258548620" duration="16000" />
     </task>
+    <task id="LOCAL-00001" summary="19/11/2023">
+      <option name="closed" value="true" />
+      <created>1700395971330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700395971330</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="19/11/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="19/11/2023" />
   </component>
 </project>
